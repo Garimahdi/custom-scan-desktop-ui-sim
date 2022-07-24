@@ -22,6 +22,10 @@ bulan.change(function(event){
         $('#tanggal option[value="31"]').remove();
         $('#tanggal option[value="30"]').remove();
         $('#tanggal option[value="29"]').remove()
+    }else{
+        tanggal.append('<option value='+29+'>'+29+"</option>");
+        tanggal.append('<option value='+30+'>'+30+"</option>");
+        tanggal.append('<option value='+31+'>'+31+"</option>")
     };
 });
 
