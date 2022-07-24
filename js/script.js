@@ -17,16 +17,16 @@ bulan.change(function(event){
     console.log(bulanFix);
 
     if(bulan.val() == 'apr' || bulan.val() == 'jun' || bulan.val() == 'sep' || bulan.val() == 'nov'){
-        $("#tanggal option[value='31']").remove()
+        $("#tanggal option[value='31']").hide()
     }else if(bulan.val() == 'feb'){
-        $('#tanggal option[value="31"]').remove();
-        $('#tanggal option[value="30"]').remove();
-        $('#tanggal option[value="29"]').remove()
-    }else{
+        $('#tanggal option[value="31"]').hide();
+        $('#tanggal option[value="30"]').hide();
+        $('#tanggal option[value="29"]').hide()
+    }/* else{
         tanggal.append('<option value='+29+'>'+29+"</option>");
         tanggal.append('<option value='+30+'>'+30+"</option>");
         tanggal.append('<option value='+31+'>'+31+"</option>")
-    };
+    }; */
 });
 
 tahun.change(function(event){
@@ -35,7 +35,7 @@ tahun.change(function(event){
     if((tahun.val()%4 == 0) && (bulan.val() == 'feb')){
         //console.log('yeet');
         tanggal.append('<option value='+29+'>'+29+"</option>")
-    }else{
+    }/* else if((tahun.val()%4 != 0) && (bulan.val() == 'feb')){
         $('#tanggal option[value="29"]').remove();
-    }
+    } */
 });
