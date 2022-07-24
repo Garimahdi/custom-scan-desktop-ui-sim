@@ -34,7 +34,8 @@ tahun.change(function(event){
     
     if((tahun.val()%4 == 0) && (bulan.val() == 'feb')){
         //console.log('yeet');
-        tanggal.append('<option value='+29+'>'+29+"</option>")
+        //tanggal.append('<option value='+29+'>'+29+"</option>")
+        $('#tanggal option[value="29"]').show();
     }/* else if((tahun.val()%4 != 0) && (bulan.val() == 'feb')){
         $('#tanggal option[value="29"]').remove();
     } */
