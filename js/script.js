@@ -22,11 +22,11 @@ bulan.change(function(event){
         $('#tanggal option[value="31"]').hide();
         $('#tanggal option[value="30"]').hide();
         $('#tanggal option[value="29"]').hide()
-    }/* else{
-        tanggal.append('<option value='+29+'>'+29+"</option>");
-        tanggal.append('<option value='+30+'>'+30+"</option>");
-        tanggal.append('<option value='+31+'>'+31+"</option>")
-    }; */
+    }else{
+        $('#tanggal option[value="31"]').show();
+        $('#tanggal option[value="30"]').show();
+        $('#tanggal option[value="29"]').show()
+    };
 });
 
 tahun.change(function(event){
@@ -36,7 +36,7 @@ tahun.change(function(event){
         //console.log('yeet');
         //tanggal.append('<option value='+29+'>'+29+"</option>")
         $('#tanggal option[value="29"]').show();
-    }/* else if((tahun.val()%4 != 0) && (bulan.val() == 'feb')){
+    }else if((tahun.val()%4 != 0) && (bulan.val() == 'feb')){
         $('#tanggal option[value="29"]').remove();
-    } */
+    }
 });
