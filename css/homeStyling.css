@@ -1,83 +1,84 @@
-#body{
+body{
     background-color:rgb(208, 224, 224);
 }
 
-.comp_banner{
-    position:relative;
-    margin-bottom:0%;
-}
-
-.main_menu{
-    text-align:center;
-    align-content: center;
-    background-color:#fff;
-    display:inline-block;
+.homeMenu{
     width:800px;
-    border-bottom: 5px solid rgb(1,145,109);
-}
-
-.footer1{
-    display:block;
-    background-color:#fff;
+    background-color:white;
+    align-content:center;
     text-align:center;
-    width:800px;
-}
-
-.img{
-    height:200px;
-    width:200px;
-    padding:30px;
-}
-
-.label{
-    padding-right:100px;
-}
-
-.label_doc{
-    padding-right:100px;
-}
-
-.opt_spacing{
-    padding-right:40px;
-}
-
-.opt_spacing_doc{
-    padding-right:210px;
-    padding-top:2px;
-    padding-bottom:2px;
-}
-
-.form_spacing{
-    padding-top:30px;
-    padding-bottom:10px;
-}
-
-.form_spacing_letter_no{
-    width:570px;
-    padding-top:20px;
-    margin-right:1px;
-    margin-left:1px;
-    padding-left:5px;
-    padding-bottom:20px;
-}
-
-.letter_no_spacing{
-    padding-right:100px;
-    margin-left:30px;
-}
-
-.text_width{
     padding-top:10px;
     padding-bottom:10px;
+    border-bottom:5px solid rgb(1,145,109);
 }
 
-.div_button{
-    padding-bottom:10px;
+.footer{
+    align-content:center;
+    text-align:center;
+    background-color:white;
+    width:800px;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
-.button_link{
-    padding-right:360px;
-    color:white;
+.img_resize{
+    height:250px;
+    width:250px;
+}
+
+/* Checking purpose only */
+table,td{
+    margin-left:10%;
+}
+
+.label_spacing{
+    width:159px;
+    height:35px;
+    text-align:left;
+}
+
+.tab_spacing{
+    text-align:left;
+    width:130px;
+    height:40px;
+}
+
+.tab_spacing_button{
+    text-align:left;
+    width:130px;
+    height:60px;
+}
+
+.tab_spacing_button_scan{
+    text-align:right;
+    width:200px;
+    height:60px;
+}
+
+.dept_spacing{
+    width:159px;
+    height:35px;
+    text-align:right;
+}
+
+.ddl_width{
+    width:140px;
+    height:30px;
+}
+
+.deptddl_spacing,.docddl_spacing{
+    height:35px;
+    width:300px;
+}
+
+.input_styling{
+    width:290px;
+    height:30px;
+}
+
+.form{
+    align-content:center;
+    align-items:center;
 }
 
 .button_style{
@@ -92,8 +93,4 @@
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
-}
-
-.arrow_style{
-    font-weight: bold;
 }

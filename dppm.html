@@ -9,131 +9,130 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@200;300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Custom Scan - DPPM</title>
 </head>
 <body id="body">
     <div class="comp_banner">
         <img src="https://garimahdi.github.io/custom-scan-desktop-ui-sim/media/template_header.png" alt="customised_header"/>
     </div>
-    <div class="main_menu">
+    <div class="homeMenu">
         <strong>DPPM</strong>
         <br>
         <br>
         <form class="form">
-            <label for="tanggal" class="label">Tanggal</label>
-            <select id="tanggal" class="opt_spacing">
-                <option value="">Pilih tanggal</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-                <option value="13">13</option>
-                <option value="14">14</option>
-                <option value="15">15</option>
-                <option value="16">16</option>
-                <option value="17">17</option>
-                <option value="18">18</option>
-                <option value="19">19</option>
-                <option value="20">20</option>
-                <option value="21">21</option>
-                <option value="22">22</option>
-                <option value="23">23</option>
-                <option value="24">24</option>
-                <option value="25">25</option>
-                <option value="26">26</option>
-                <option value="27">27</option>
-                <option value="28">28</option>
-                <option value="29">29</option>
-                <option value="30">30</option>
-                <option value="31">31</option>
-            </select>
-
-            <select id="bulan" class="opt_spacing">
-                <option value="">Pilih bulan</option>
-                <option value="jan">Jan</option>
-                <option value="feb">Feb</option>
-                <option value="mar">Mar</option>
-                <option value="apr">Apr</option>
-                <option value="may">May</option>
-                <option value="jun">Jun</option>
-                <option value="jul">Jul</option>
-                <option value="aug">Aug</option>
-                <option value="sep">Sep</option>
-                <option value="oct">Oct</option>
-                <option value="nov">Nov</option>
-                <option value="dec">Dec</option>
-            </select>
-
-            <select id="tahun" class="opt_spacing">
-                <option value="">Pilih tahun</option>
-                <option value="1990">1990</option>
-                <option value="1991">1991</option>
-                <option value="1992">1992</option>
-                <option value="1993">1993</option>
-                <option value="1994">1994</option>
-                <option value="1995">1995</option>
-                <option value="1996">1996</option>
-                <option value="1997">1997</option>
-                <option value="1998">1998</option>
-                <option value="1999">1999</option>
-                <option value="2000">2000</option>
-                <option value="2001">2001</option>
-                <option value="2002">2002</option>
-                <option value="2003">2003</option>
-                <option value="2004">2004</option>
-                <option value="2005">2005</option>
-                <option value="2006">2006</option>
-                <option value="2007">2007</option>
-                <option value="2008">2008</option>
-                <option value="2009">2009</option>
-                <option value="2010">2010</option>
-                <option value="2011">2011</option>
-                <option value="2012">2012</option>
-                <option value="2013">2013</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-            </select>
+            <table>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="tanggal" class="label">Tanggal</label>
+                    </td>
+                    <td class="tab_spacing">
+                        <select id="tanggal" class="ddl_width">
+                            <option value="">Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </td>
+                    <td class="tab_spacing">
+                        <select id="bulan" class="ddl_width">
+                            <option value="">Month</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="mar">Mar</option>
+                            <option value="apr">Apr</option>
+                            <option value="may">May</option>
+                            <option value="jun">Jun</option>
+                            <option value="jul">Jul</option>
+                            <option value="aug">Aug</option>
+                            <option value="sep">Sep</option>
+                            <option value="oct">Oct</option>
+                            <option value="nov">Nov</option>
+                            <option value="dec">Dec</option>
+                        </select>
+                    </td>
+                    <td class="tab_spacing">
+                        <select id="tahun" class="ddl_width">
+                            <option value="">Year</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="jenis_doc">Jenis Dokumen</label>
+                    </td>
+                    <td class="tab_spacing" colspan="2">
+                        <select id="work_dept" class="deptddl_spacing">
+                            <option value="">Pilih jenis dokumen</option>
+                            <option value="surat_edaran">Surat Edaran</option>
+                            <option value="surat_keluar">Surat Keluar</option>
+                            <option value="surat_perintah">Surat Perintah</option>
+                            <option value="surat_kuasa">Surat Kuasa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label_spacing">
+                        <label for="doc_number">Nomor Dokumen</label>
+                    </td>
+                    <td class="tab_spacing" colspan="2">
+                        <input type=text placeholder="Masukkan nomor dokumen" class="input_styling"/>
+                    </td>
+                </tr>
+            </table>
         </form>
 
-        <form class="form_spacing">
-            <label for="dokumen" class="label_doc">Jenis Dokumen</label>
-            <select id="dokumen" class="opt_spacing_doc">
-                <option value="">Pilih jenis dokumen</option>
-                <option value="surat_edaran">Surat Edaran</option>
-                <option value="surat_keluar">Surat Keluar</option>
-                <option value="surat_perintah">Surat Perintah</option>
-                <option value="surat_kuasa">Surat Kuasa</option>
-            </select>
-        </form>
-
-        <form class="form_spacing_letter_no">
-            <label for="no_surat" class="letter_no_spacing">Nomor Surat</label>
-            <input type="text" id="no_surat" placeholder="Masukkan nomor surat" class="text_width"/>
-        </form>
-
-        <div class="div_button">
-            <a href="https://garimahdi.github.io/custom-scan-desktop-ui-sim/" class="button_link">
-                <button class="button_style"><span class="arrow_style">&larr; </span>Back</button>
-            </a>
-            <button class="button_style">Scan<span class="arrow_style"> &rarr;</span></button>
-        </div>
+        <table>
+            <tr>
+                <td class="tab_spacing_button">
+                    <a href="https://garimahdi.github.io/custom-scan-desktop-ui-sim/" class="button_link">
+                        <button class="button_style"><span class="arrow_style">&larr; </span>Back</button>
+                    </a>
+                </td>
+                <td class="tab_spacing_button">
+                </td>
+                <td class="tab_spacing_button">
+                </td>
+                <td class="tab_spacing_button_scan">
+                    <button type=submit class="button_style">Scan<span class="arrow_style"> &rarr;</span></button>
+                </td>
+            </tr>
+        </table>
     </div>
-    <div class="footer1">
+    <div class="footer">
         Copyright &copy; Astragraphia <span id="anno"></span>
     </div>
     <script src="https://garimahdi.github.io/custom-scan-desktop-ui-sim/js/script.js"></script>
